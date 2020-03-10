@@ -1,0 +1,21 @@
+.button {
+	margin-left: 60px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 25px;
+	font-weight: 200;
+	font-size: 15px;
+	color: var(--blue);
+	background-color: white;
+}
+
+.button.-success {
+	box-shadow: 0 0 0 13px rgba(100, 226, 205, 0.5);
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 0;
+	padding: 14px 33px;
+	color: white;
+	background-color: var(--green);
+	text-transform: uppercase;
+}

@@ -1,0 +1,29 @@
+.header {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+}
+
+.header__link.-up:first-child {
+	font-weight: 600;
+	color: var(--blue);
+}
+
+.header__link.-up {
+	margin-right: 25px;
+	margin-left: 0;
+	text-transform: uppercase;
+}
+
+.header__link {
+	margin-left: 45px;
+	font-weight: 200;
+	font-size: 15px;
+	color: white;
+}

@@ -1,0 +1,36 @@
+.hero__content {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hero__info {
+	width: 50%;
+	color: white;
+}
+
+.hero__place {
+	line-height: 20px;
+	margin-top: 60px;
+	margin-bottom: 15.5px;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.title.-hero {
+	font-size: 35px;
+	width: 440px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.hero__subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1199px;) {
+	
+}
