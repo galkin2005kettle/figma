@@ -1,6 +1,18 @@
 .container {
-	width: 1200px;
+	width: 1560px;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1600px) {
+	.container {
+		width: 1440px;
+	}
+}
+
+@media screen and (max-width: 1480px) {
+	.container {
+		width: 1200px;
+	}
 }
 
 @media screen and (max-width: 1240px) {
@@ -11,6 +23,12 @@
 
 @media screen and (max-width: 1040px) {
 	.container {
-		width: 730px;
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
 	}
 }

@@ -7,6 +7,7 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 body {
 	background-image: url(../img/image.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 img {
@@ -19,4 +20,11 @@ img {
 
 a {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		background-position-x: 100%;
+		background-size: 2000px;
+	}
 }

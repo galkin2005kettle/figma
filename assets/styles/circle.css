@@ -1,45 +1,54 @@
 .circle {
-	width: 242px;
-	height: 242px;
+	width: 370px;
+	height: 370px;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	position: absolute;
-	left: 174px;
+	top: 524px;	
+	left: 356px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
 
 .circle__grade {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 24px;
+	line-height: 30px;
 	color: var(--blue);
 }
 
 .circle__mark {
 	font-weight: bold;
-	font-size: 36px;
-	line-height: 54px;
+	font-size: 44px;
+	line-height: 60px;
 	color: var(--blue);
 }
 
 .circle__name {
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 24px;
+	line-height: 30px;
 	color: var(--blue);
 }
 
 .circle__company {
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 24px;
+	line-height: 30px;
 	color: var(--blue);
 }
 
 .circle__review {
-	font-size: 12px;
-	line-height: 42px;
+	font-size: 20px;
+	line-height: 50px;
 	color: var(--blue);
+}
+
+@media screen and (max-width: 767px){
+	.circle {
+	position: absolute;
+	top: 700px;	
+	left: 192px;
+	}
 }
