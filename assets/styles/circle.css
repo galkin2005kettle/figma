@@ -3,8 +3,6 @@
 	height: 400px;
 	border-radius: 50%;
 	position: absolute;
-	top: 561px;	
-	left: 371px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 	display: flex;
@@ -45,65 +43,77 @@
 	color: var(--blue);
 }
 
+.circle.-hero {
+	top: 561px;	
+	left: 371px;
+}
+
+@media screen and (max-width: 1699px) {
+	.circle.-hero {
+		left: 220px;
+	}
+}
+
 @media screen and (max-width: 1480px) {
 	.circle {
-		width: 380px;
-		height: 380px;
-		position: absolute;
-		top: 450px;
-		left: 260px;
+		width: 310px;
+		height: 310px;
 	}
-}
 
-@media screen and (max-width: 1240px) {
-	.circle {
-		width: 360px;
-		height: 360px;
-		position: absolute;
-		top: 480px;
-		left: 160px;
-	}
-}
-
-@media screen and (max-width: 1040px) {
-	.circle {
-		width: 350px;
-		height: 350px;
-		position: absolute;
+	.circle.-hero {
 		top: 580px;
 		left: 100px;
 	}
 
 	.circle__grade {
-		font-size: 25px;
-		line-height: 38px;
+		font-size: 22px;
+		line-height: 28px;
 		color: var(--blue);
 	}
 
 	.circle__mark {
 		font-weight: bold;
-		font-size: 43px;
+		font-size: 35px;
 		line-height: 68px;
 		color: var(--blue);
 	}
 
 	.circle__name {
-		font-size: 25px;
-		line-height: 38px;
+		font-size: 20px;
+		line-height: 27px;
 		color: var(--blue);
 	}
 
 	.circle__company {
+		margin-bottom: 16px;
 		font-weight: bold;
-		font-size: 25px;
-		line-height: 38px;
+		font-size: 20px;
+		line-height: 27px;
 		color: var(--blue);
 	}
 
 	.circle__review {
-		font-size: 18px;
-		line-height: 58px;
+		font-size: 14px;
+		line-height: 20px;
 		color: var(--blue);
+	}
+
+	.circle.-hero {
+		top: 450px;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.circle.-hero {
+		top: 480px;
+		left: 100px;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.circle.-hero {
+		top: 580px;
+		left: 100px;
 	}
 }
 
@@ -111,6 +121,9 @@
 	.circle {
 		width: 400px;
 		height: 400px;
+	}
+
+	.circle.-hero {
 		position: static;
 		margin: 0 auto;
 	}
