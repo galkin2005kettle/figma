@@ -1,0 +1,16 @@
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title.-features {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.features__container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	min-width: 666px;
+}

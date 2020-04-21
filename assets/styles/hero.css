@@ -1,3 +1,7 @@
+.hero {
+	min-height: 100vh;
+}
+
 .hero__content {
 	display: flex;
 	justify-content: flex-end;
@@ -17,7 +21,7 @@
 	text-transform: uppercase;
 }
 
-.hero__title {
+.title.-hero {
 	font-size: 45px;
 	width: 580px;
 	line-height: 60px;
@@ -32,6 +36,10 @@
 }
 
 @media screen and (max-width: 1480px) {
+	.hero {
+		padding-bottom: 20px;
+	}
+
 	.hero__info {
 		padding-left: 20px;
 	}
@@ -45,7 +53,7 @@
 		text-transform: uppercase;
 	}
 
-	.hero__title {
+	.title.-hero {
 		font-size: 40px;
 		width: 505px;
 		line-height: 48px;
@@ -79,7 +87,7 @@
 		text-transform: uppercase;
 	}
 
-	.hero__title {
+	.title.-hero {
 		font-size: 39px;
 		width: 503px;
 		line-height: 58px;
@@ -108,7 +116,7 @@
 		text-transform: uppercase;
 	}
 
-	.hero__title {
+	.title.-hero {
 		font-size: 30px;
 		width: 100%;
 		line-height: 38px;
@@ -137,7 +145,7 @@
 		text-transform: uppercase;
 	}
 
-	.hero__title {
+	.title.-hero {
 		font-size: 35px;
 		margin-bottom: 34px;
 	}
