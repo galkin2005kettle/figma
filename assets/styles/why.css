@@ -1,0 +1,14 @@
+.why {
+	background-color: var(--blue-transparent);
+}
+
+.title.-why {
+	font-size: 31px;
+	padding-top: 80px;
+}
+
+.why__content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}

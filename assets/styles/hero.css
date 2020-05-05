@@ -1,5 +1,6 @@
 .hero {
 	min-height: 100vh;
+	margin-bottom: 50px;
 }
 
 .hero__content {
