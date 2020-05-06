@@ -20,6 +20,12 @@
 	text-transform: uppercase;
 }
 
+.button.-footer {
+	margin-left: 0;
+	padding: 15px 33px;
+	font-size: 17px;
+}
+
 @media screen and (max-width: 1480px) {
 	.button.-success {
 		padding: 15px 34px;

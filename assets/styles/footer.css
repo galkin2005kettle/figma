@@ -1,4 +1,6 @@
 .footer {
+	padding: 0 30px;
+	height: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -6,12 +8,13 @@
 }
 
 .footer__link.-uppercase {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 200;
+	margin-right: 30px;
 	text-transform: uppercase;
 	color: var(--white);
 }
 
 .footer__link.-uppercase.-bold {
-	font-weight: 600;
+	font-weight: 500;
 }

@@ -2,8 +2,8 @@
 	padding: 0 30px;
 	height: 100px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .header__right {
