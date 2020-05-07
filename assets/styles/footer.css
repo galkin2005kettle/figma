@@ -18,3 +18,9 @@
 .footer__link.-uppercase.-bold {
 	font-weight: 500;
 }
+
+@media screen and (max-width: 770px) {
+	.footer__link.-uppercase {
+		margin-right: 20px;
+	}
+}
